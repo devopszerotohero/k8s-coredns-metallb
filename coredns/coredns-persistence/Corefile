@@ -1,0 +1,11 @@
+.:53 {
+    forward . 8.8.8.8 4.4.4.4 # google dns
+    log
+    errors
+}
+
+dzth.local:53 {
+    file /root/dzth.int.db
+    log
+    errors
+}
