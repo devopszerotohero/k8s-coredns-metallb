@@ -5,7 +5,7 @@
 }
 
 dzth.local:53 {
-    file /root/dzth.int.db
+    file /root/dzth.local.db
     log
     errors
 }
