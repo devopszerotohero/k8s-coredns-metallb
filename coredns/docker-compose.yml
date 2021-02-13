@@ -3,6 +3,7 @@ version: '2.4'
 services:
   dns:
     image: coredns/coredns
+    restart: always
     expose:
       - '53'
       - '53/udp'
